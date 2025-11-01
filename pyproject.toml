@@ -1,0 +1,20 @@
+[project]
+name = "opentele"
+version = "1.15.2"
+description = "A Python Telegram API Library for converting between tdata and telethon sessions, with built-in official Telegram APIs."
+authors = [
+    {name = "Vladyslav Chaliuk",email = "chaliukvladyslav@gmail.com"},
+    {name = "thedemos", email = "thedemons@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12, <3.14"
+dependencies = [
+    "pyside6 (>=6.10.0,<7.0.0)",
+    "telethon (>=1.41.2,<2.0.0)",
+    "tgcrypto (>=1.2.5,<2.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

@@ -2,7 +2,7 @@ from __future__ import annotations
 import inspect
 import types
 import typing
-from PyQt5.QtCore import QDataStream
+from PySide6.QtCore import QDataStream
 
 
 class OpenTeleException(BaseException):  # nocov
